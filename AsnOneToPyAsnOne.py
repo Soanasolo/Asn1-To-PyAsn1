@@ -131,7 +131,7 @@ def getVariableBuiltInType(spec, variableType):
         if variableBuildinType in buildingTypes:
             return variableBuildinType
         else: 
-            return getVariableBuiltInType(variableBuildinType)
+            return getVariableBuiltInType(spec, variableBuildinType)
     else:
         raise Exception('Le buildinType du variable {} n\'est pas défini'.format(variableType))
         
