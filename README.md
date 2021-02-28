@@ -13,7 +13,7 @@ pip install asn1tools
 In order to generate the PyAsn1 code from the data structure SourceAsn, execute the below command. It will create a file for each module defined in the ASN1 data structure. 
 
 ```bash
-$ python AsnOneToPyAsnOne.py DataStructureEx/SourceAsn
+python AsnOneToPyAsnOne.py DataStructureEx/SourceAsn
 ```  
 
 
