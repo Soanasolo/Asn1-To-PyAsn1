@@ -3,7 +3,7 @@ This is a Python script that translates a data structure defined in the ASN1 con
 
 ## Prerequisites
 This code relies on the Python package [asn1tools](https://github.com/eerimoq/asn1tools) for parsing the ASN1 data structure.
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install this package.
+which can be installed using the package manager [pip](https://pip.pypa.io/en/stable/).
 
 ```bash
 pip install asn1tools
